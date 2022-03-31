@@ -1,0 +1,31 @@
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+#d1{
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  order:3;
+}
+#d2{
+  background-color:green;
+  width: 12.5em;
+  height: 12.5rem;
+  order:2;
+}
+#d3{
+  background-color:blue;
+  width: 12vw;
+  height: 12vh;
+  order:4;
+}
+#d4{
+  background-color:black;
+  width: 12%;
+  height: 12%;
+  order:1;
+}
